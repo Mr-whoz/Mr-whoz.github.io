@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>你好， VuePress ！</title><meta name="description" content="My first VuePress Site">
+    <link rel="preload" href="/vuepresspage/assets/style-EFoLUdD2.css" as="style"><link rel="stylesheet" href="/vuepresspage/assets/style-EFoLUdD2.css">
+    <link rel="modulepreload" href="/vuepresspage/assets/app-BT5G3N7_.js"><link rel="modulepreload" href="/vuepresspage/assets/404.html-CDCOKb1H.js">
+    <link rel="prefetch" href="/vuepresspage/assets/index.html-DBdbZMXx.js" as="script"><link rel="prefetch" href="/vuepresspage/assets/get-started.html-9iqBIU24.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-3e50fb5f><main class="page" data-v-3e50fb5f><div vp-content data-v-3e50fb5f><h1 data-v-3e50fb5f>404</h1><blockquote data-v-3e50fb5f>There&#39;s nothing here.</blockquote><a class="route-link" href="/vuepresspage/" data-v-3e50fb5f>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/vuepresspage/assets/app-BT5G3N7_.js" defer></script>
+  </body>
+</html>
