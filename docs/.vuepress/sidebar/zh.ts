@@ -17,15 +17,10 @@ export const zhSidebar = sidebar({
       prefix: "guide/",
       children: "structure",
     },    {
-      text: "广告",
+      text: "互联网广告",
       icon: "book",
-      prefix: "广告/",
+      prefix: "互联网广告/",
       children: "structure",
-    },
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
     },
   ],
 });
