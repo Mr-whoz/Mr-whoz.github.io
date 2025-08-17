@@ -3,7 +3,6 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/": [
     "",
-    "portfolio",
     {
       text: "案例",
       icon: "laptop-code",
@@ -12,15 +11,22 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "文档",
-      icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },    {
       text: "互联网广告",
       icon: "book",
       prefix: "互联网广告/",
-      children: "structure",
+      children: [
+        {
+          collapsible: true, // 可折叠
+          text: "需求方平台DSP",
+          icon: "lightbulb",
+          prefix: "需求方平台DSP/",
+          children: [
+            "简介.md",
+            "媒体请求->召回.md",
+            "队列控制.md",
+          ],
+        },
+      ],
     },
   ],
 });
