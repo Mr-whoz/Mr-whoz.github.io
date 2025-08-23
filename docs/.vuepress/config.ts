@@ -1,5 +1,8 @@
 import { defineUserConfig } from "vuepress";
 
+import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics'
+
+
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -17,4 +20,10 @@ export default defineUserConfig({
 
   // Enable it with pwa
   // shouldPrefetch: false,
+    plugins: [
+    baiduAnalyticsPlugin({
+      // 配置项
+      id: '132bc60928ddfddce419ce303d3cfaa3',
+    }),
+  ],
 });

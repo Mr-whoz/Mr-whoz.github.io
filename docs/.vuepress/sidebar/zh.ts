@@ -24,6 +24,7 @@ export const zhSidebar = sidebar({
             "简介.md",
             "媒体请求->召回.md",
             "队列控制.md",
+            "节省带宽.md",
           ],
         },
       ],
