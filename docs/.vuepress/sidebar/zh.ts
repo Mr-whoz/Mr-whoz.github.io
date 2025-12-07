@@ -21,6 +21,7 @@ export const zhSidebar = sidebar({
             "节省带宽.md",
             "特征.md",
             "如何提升预估的准确性.md",
+            "投放管理端.md",
           ],
         },
         {
