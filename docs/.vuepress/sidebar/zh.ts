@@ -15,9 +15,21 @@ export const zhSidebar = sidebar({
           prefix: "需求方平台DSP/",
           children: [
             "简介.md",
+            "ID-Mapping.md",
             "媒体请求->召回.md",
             "队列控制.md",
             "节省带宽.md",
+            "特征.md",
+            "如何提升预估的准确性.md",
+          ],
+        },
+        {
+          collapsible: true, // 可折叠
+          text: "研发工具",
+          icon: "lightbulb",
+          prefix: "研发工具/",
+          children: [
+            "无diff工具.md",
           ],
         },
       ],
